@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiple function calling</title>
+</head>
+<body>
+<script type="text/javascript">
+	function first()
+	{
+		document.write("This is the first function");
+		document.write("<br>");// prints a new line
+	}
+	function second()
+	{
+		document.write("This is the second function");
+	}
+	function third()
+	{
+		first();
+		second();
+	}
+	third();
+</script>
+</body>
+</html>
